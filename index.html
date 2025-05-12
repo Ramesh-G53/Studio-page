@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayon Studio - Chennai's Premier Recording Space</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Rayon Studio</div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#sessions">Sessions</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#book">Book Now</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Rayon Studio</h1>
+            <p>Where Sound Meets Passion</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <div class="section-content">
+            <h2>About Rayon Studio</h2>
+            <p>Located in the heart of Chennai, Rayon Studio is a state-of-the-art recording facility designed for musicians, podcasters, and audio creators. Our professional-grade equipment and acoustically treated rooms ensure the highest quality sound recording.</p>
+            <div class="studio-highlights">
+                <div class="highlight">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Professional Recording</h3>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-guitar"></i>
+                    <h3>Multiple Instruments</h3>
+                </div>
+                <div class="highlight">
+                    <i class="fas fa-headphones"></i>
+                    <h3>Top-Tier Acoustics</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessions Section -->
+    <section id="sessions" class="sessions fade-in">
+        <h2>Our Sessions</h2>
+        <div class="session-types">
+            <div class="session-card slide-in">
+                <img src="https://utaten.com/live/wp-content/uploads/2022/10/co-write02.webp" alt="Music Recording">
+                <h3>Music Recording</h3>
+                <p>Full studio setup for bands, solo artists, and ensembles.</p>
+            </div>
+            <div class="session-card slide-in">
+                <img src="https://www.voicecrafters.com/wp-content/uploads/2021/01/Dubbing-A-Comprehensive-Guide-Female-voice-talent-recording-1024x684.jpg" alt="Vocal Dubbing">
+                <h3>Vocal Dubbing</h3>
+                <p>Professional vocal recording and post-production.</p>
+            </div>
+            <div class="session-card slide-in">
+                <img src="https://i.ytimg.com/vi/MqFxlPFWhBU/maxresdefault.jpg" alt="Jam Sessions">
+                <h3>Jam Sessions</h3>
+                <p>Collaborative spaces for musicians to create and explore.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery fade-in">
+        <h2>Studio Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item slide-in"><img src="https://theproaudiofiles.com/wp-content/uploads/2015/02/recording-studio-interior-design-recording-studio-interior-design.jpg" alt="Studio Interior"></div>
+            <div class="gallery-item slide-in"><img src="https://i.pinimg.com/originals/6e/bd/ab/6ebdab90c47b7386cb95c5e764e18400.jpg" alt="Mixing Console"></div>
+            <div class="gallery-item slide-in"><img src="https://producelikeapro.com/blog/wp-content/uploads/2018/11/The-Best-Inexpensive-DIY-Vocal-Booth-Options.jpg" alt="Recording Booth"></div>
+            <div class="gallery-item slide-in"><img src="https://acousticgeometry.com/wp-content/uploads/2020/10/wes-hicks-MEL-jJnm7RQ-unsplash.jpg" alt="Instrument Setup"></div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book" class="booking fade-in">
+        <h2>Book Your Session</h2>
+        <form id="booking-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <select required>
+                <option value="">Select Session Type</option>
+                <option value="music-recording">Music Recording</option>
+                <option value="vocal-dubbing">Vocal Dubbing</option>
+                <option value="jam-session">Jam Session</option>
+            </select>
+            <input type="date" required>
+            <textarea placeholder="Additional Requirements"></textarea>
+            <button type="submit">Book Session</button>
+        </form>
+    </section>
+
+    <!-- Booking Confirmation Modal -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Session Booked!</h2>
+            <p>Your session at Rayon Studio has been successfully scheduled.</p>
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="contact-info">
+            <h3>Rayon Studio</h3>
+            <p>123, Music Lane, Chennai, Tamil Nadu, India</p>
+            <p>📞 +91 98765 43210</p>
+            <p>✉️ bookings@rayonstudio.com</p>
+        </div>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="copyright">
+            © 2024 Rayon Studio. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
